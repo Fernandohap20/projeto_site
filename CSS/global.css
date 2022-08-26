@@ -16,7 +16,7 @@ body {
   font-family: 'Rubik', sans-serif;
   margin: 0px;
   color: #141414;
-  margin-bottom: 1000px;
+  margin-bottom: 62.5rem;
 }
 h1,
 h2,
@@ -37,4 +37,20 @@ img {
 }
 a{
   text-decoration: none;
+}
+
+.subtitulo{
+  font-size: 8rem;
+  line-height: 1; /*altura de linha*/
+  text-transform:uppercase ; /*Colocar em letra maiúscula*/
+  word-break: break-all; /*Para quebrar a palavra*/
+  max-width: 4ch; /*quando estiver espaçado vai quebrar em 4 caractéries*/
+}
+
+@media (max-width: 50rem){
+  .subtitulo{
+    font-size: 3rem;
+    text-transform: capitalize;
+    max-width: initial;
+  }
 }
