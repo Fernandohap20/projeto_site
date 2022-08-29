@@ -16,7 +16,8 @@ body {
   font-family: 'Rubik', sans-serif;
   margin: 0px;
   color: #141414;
-  margin-bottom: 62.5rem;
+  
+  
 }
 h1,
 h2,
@@ -33,6 +34,7 @@ ul {
 
 img {
   max-width: 100%;
+  height: auto;
   display: block;
 }
 a{
@@ -51,6 +53,6 @@ a{
   .subtitulo{
     font-size: 3rem;
     text-transform: capitalize;
-    max-width: initial;
+    max-width: initial !important;
   }
 }
